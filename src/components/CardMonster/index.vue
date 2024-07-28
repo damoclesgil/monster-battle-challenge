@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white drop-shadow-lg w-[300px] h-auto rounded-md px-4 py-4">
+  <div class="bg-white drop-shadow-lg w-[300px] h-auto rounded-md px-4 py-4" v-if="monster">
     <img
       :src="getImageUrl(monster.imageUrl)"
       :alt="monster.name"
@@ -34,6 +34,12 @@
       </div>
     </div>
   </div>
+  <div
+    v-else
+    class="bg-white drop-shadow-lg flex flex-col justify-center items-center w-[300px] h-[460px] rounded-md"
+  >
+    <h3 class="text-4xl">{{ cardText }}</h3>
+  </div>
 </template>
 
 <script lang="ts">
@@ -45,7 +51,11 @@ export default {
   props: {
     monster: {
       required: true,
-      type: Object as PropType<MONSTER>
+      type: Object as PropType<MONSTER | null>
+    },
+    cardText: {
+      type: String,
+      default: 'Player'
     }
   },
   setup() {

@@ -1,4 +1,4 @@
-# monster-battle
+# Monster Battle
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -42,6 +42,17 @@ npm run test:unit
 
 ```sh
 npm run lint
+
+
+The Coding Challenge
+The app is a battle of monsters, where we have many different monsters with multiple stats like attack and defense, and we can let them fight each other.
+The current application displays a list of monsters. We only have the feature of selecting the player's monsters; your job is to implement the missing functionalities.
+Goals
+Create the monster's card component to visualize the monster's strengths and weaknesses correctly.
+Implement the logic to get the computer's monster which should be randomly selected after the player's monster is selected, not allowing it to be the same one as the player; remember that you will select the player's monster by clicking on it.
+Once both monsters are selected, the user can “Start Battle," and you must implement the service request and display the battle result correctly.
+For "Start Battle" We already have an endpoint ready for it. You don't need to worry about the endpoint implementation or even the logic to calculate the monster's battle.
+It is not necessary to create a responsive application for different devices; you can focus only on the web version.
 
 
 

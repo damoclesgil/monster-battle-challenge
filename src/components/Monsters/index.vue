@@ -1,13 +1,14 @@
 <script setup lang="ts">
 import { ref, onMounted, type Ref } from 'vue'
-import { getMonsters, type MONSTER } from './api'
+import { getMonsters, setBattle, type MONSTER } from './api'
 import { getImageUrl } from '@/utils/getImageUrl'
 import Button from '@/components/Button/index.vue'
 import CardMonster from '@/components/CardMonster/index.vue'
 
 const loading: Ref<boolean> = ref(false)
 const monsters = ref<MONSTER[]>([])
-const monsterSelected = ref<MONSTER>()
+const monsterSelected = ref<MONSTER | null>(null)
+const randomMonsterSelected = ref<MONSTER | null>(null)
 
 const monsterMocked = {
   id: 'monster-1',
@@ -34,7 +35,14 @@ async function fetchData() {
   }
 }
 
-const selectMonster = () => {}
+const selectMonster = (currentMonster: MONSTER) => {
+  monsterSelected.value = currentMonster
+}
+
+const startBattle = async () => {
+  await setBattle()
+  randomMonsterSelected.value = monsters.value[Math.floor(Math.random() * monsters.value.length)]
+}
 
 onMounted(async () => {
   await fetchData()
@@ -44,13 +52,13 @@ onMounted(async () => {
 <template>
   <div class="mt-4">
     <div v-if="loading" class="loading">Loading...</div>
-
     <div v-if="error" class="error">{{ error }}</div>
 
     <div class="grid grid-cols-5 gap-4">
       <button
         v-for="monster in monsters"
         :key="monster.id"
+        @click="selectMonster(monster)"
         class="bg-white drop-shadow-lg border border-transparent hover:border-black focus:border-black px-2 py-2 rounded-md w-[150px] h-[140px]"
       >
         <img :src="getImageUrl(monster.imageUrl)" :alt="monster.name" class="w-full h-auto" />
@@ -65,22 +73,9 @@ onMounted(async () => {
     </div>
 
     <div class="mt-8 flex items-center justify-start gap-6">
-      <!-- <div
-        class="bg-white drop-shadow-lg flex flex-col justify-center items-center w-[300px] h-[415px] rounded-md"
-      >
-        <h3 class="text-4xl">Player</h3>
-      </div> -->
-
-      <!-- {{ monsters[0].imageUrl }} -->
-      <div v-if="monsterMocked">
-        <CardMonster :monster="monsterMocked" />
-      </div>
-      <Button />
-      <div
-        class="bg-white drop-shadow-lg flex flex-col justify-center items-center w-[300px] h-[415px] rounded-md"
-      >
-        <h3 class="text-4xl">Computer</h3>
-      </div>
+      <CardMonster :monster="monsterSelected" cardText="Player" />
+      <Button @click="startBattle" :disabled="!monsterSelected" />
+      <CardMonster :monster="randomMonsterSelected" cardText="Computer" />
     </div>
   </div>
 </template>
