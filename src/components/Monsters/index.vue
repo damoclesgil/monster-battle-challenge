@@ -67,7 +67,7 @@ onMounted(async () => {
     </div>
 
     <div class="bg-[#E1F8FF] p-4 text-2xl border border-black mt-10 rounded-md" v-if="winner">
-      {{ winner.name }} Wins!
+      {{ winner.tie ? 'Tie!' : winner.name + ' Wins!' }}  
     </div>
 
     <div class="mt-8 flex items-center justify-start gap-6">
