@@ -9,18 +9,9 @@ const loading: Ref<boolean> = ref(false)
 const monsters = ref<MONSTER[]>([])
 const monsterSelected = ref<MONSTER | null>(null)
 const randomMonsterSelected = ref<MONSTER | null>(null)
-// const winner = ref<MONSTER | null>(null)
+const winner = ref<MONSTER | null>(null)
 
-// const monsterMocked = {
-//   id: 'monster-1',
-//   name: 'Dead Unicorn',
-//   attack: 60,
-//   defense: 40,
-//   hp: 10,
-//   speed: 80,
-//   type: 'Type',
-//   imageUrl: 'images/dead-unicorn.png'
-// }
+
 const error = ref(null)
 
 async function fetchData() {
@@ -42,9 +33,13 @@ const selectMonster = (currentMonster: MONSTER) => {
 
 const startBattle = async () => {
   randomMonsterSelected.value = monsters.value[Math.floor(Math.random() * monsters.value.length)]
-  console.log(randomMonsterSelected.value.id)
-  console.log(monsterSelected.value?.id)
-  await setBattle()
+  const mostersIds = {
+    monsterIdPlayer: monsterSelected.value?.id,
+    monsterIdComputer: randomMonsterSelected.value.id
+  } as MONSTER_iDS
+
+  // let result = await setBattle(mostersIds)
+  winner.value = await setBattle(mostersIds)
 }
 
 onMounted(async () => {
@@ -71,8 +66,8 @@ onMounted(async () => {
       </button>
     </div>
 
-    <div class="bg-[#E1F8FF] p-4 text-2xl border border-black mt-10 rounded-md">
-      Dead Unicor Wins!
+    <div class="bg-[#E1F8FF] p-4 text-2xl border border-black mt-10 rounded-md" v-if="winner">
+      {{ winner.name }} Wins!
     </div>
 
     <div class="mt-8 flex items-center justify-start gap-6">

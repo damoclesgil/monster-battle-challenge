@@ -11,17 +11,31 @@ export type MONSTER = {
   imageUrl: string
 }
 
-export const getMonsters = () => {
-  return fetch(`${apiUrl}/defaultMonsters`).then((res) => res.json())
+export type MONSTER_iDS = {
+  monsterIdPlayer: string
+  monsterIdComputer: string
 }
 
-export const setBattle = async () => {
-  const response = await fetch(`${apiUrl}/battle`, {
+export const getMonsters = () => {
+  return fetch(`${apiUrl}/monsters`).then((res) => res.json())
+}
+
+export const setBattle = async (ids: MONSTER_iDS) => {
+  const request = new Request(`${apiUrl}/battle`, {
     method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
     body: JSON.stringify({
-      monster1Id: 'monster-1',
-      monster2Id: 'monster-2'
+      monsterIdPlayer: ids.monsterIdPlayer,
+      monsterIdComputer: ids.monsterIdComputer
     })
   })
-  return response
+  try {
+    const response = await fetch(request)
+    const result = await response.json()
+    return result.winner
+  } catch (error) {
+    console.error('Error:', error)
+  }
 }

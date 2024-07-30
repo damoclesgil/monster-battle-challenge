@@ -36,6 +36,7 @@
   </div>
   <div
     v-else
+    data-test="card-monster"
     class="bg-white drop-shadow-lg flex flex-col justify-center items-center w-[300px] h-[460px] rounded-md"
   >
     <h3 class="text-4xl">{{ cardText }}</h3>

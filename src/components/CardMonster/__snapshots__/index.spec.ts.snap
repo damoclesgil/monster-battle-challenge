@@ -1,0 +1,2291 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Should be render normally 1`] = `
+VueWrapper {
+  "__app": {
+    "_component": {
+      "name": "VTU_ROOT",
+      "render": [Function],
+      "setup": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <div
+        class="bg-white drop-shadow-lg w-[300px] h-auto rounded-md px-4 py-4"
+      >
+        <img
+          alt="Dead Unicorn"
+          class="w-[283px] h-[178px] drop-shadow-md"
+          src="http://localhost:5173/images/dead-unicorn.png"
+        />
+        <p
+          class="mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark"
+        >
+          Dead Unicorn
+        </p>
+        <div
+          class="my-3"
+        >
+          <p
+            class="text-left"
+          >
+            HP
+          </p>
+          <div
+            class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+          >
+            <div
+              class="bg-light-green h-2.5 rounded-full"
+              style="width: 10%;"
+            />
+          </div>
+        </div>
+        <div
+          class="my-3"
+        >
+          <p
+            class="text-left"
+          >
+            Attack
+          </p>
+          <div
+            class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+          >
+            <div
+              class="bg-light-green h-2.5 rounded-full"
+              style="width: 60%;"
+            />
+          </div>
+        </div>
+        <div
+          class="my-3"
+        >
+          <p
+            class="text-left"
+          >
+            Defense
+          </p>
+          <div
+            class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+          >
+            <div
+              class="bg-light-green h-2.5 rounded-full"
+              style="width: 40%;"
+            />
+          </div>
+        </div>
+        <div
+          class="my-3"
+        >
+          <p
+            class="text-left"
+          >
+            Speed
+          </p>
+          <div
+            class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+          >
+            <div
+              class="bg-light-green h-2.5 rounded-full"
+              style="width: 80%;"
+            />
+          </div>
+        </div>
+      </div>
+    </div>,
+    "_context": {
+      "app": [Circular],
+      "components": {
+        "transition": {
+          "name": "transition",
+        },
+        "transition-group": {
+          "name": "transition-group",
+        },
+      },
+      "config": {
+        "compilerOptions": {},
+        "errorHandler": undefined,
+        "globalProperties": {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": {},
+      "emitsCache": WeakMap {},
+      "mixins": [
+        {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": {},
+      "reload": [Function],
+    },
+    "_instance": {
+      "a": null,
+      "accessCache": {},
+      "appContext": {
+        "app": [Circular],
+        "components": {
+          "transition": {
+            "name": "transition",
+          },
+          "transition-group": {
+            "name": "transition-group",
+          },
+        },
+        "config": {
+          "compilerOptions": {},
+          "errorHandler": undefined,
+          "globalProperties": {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": {},
+        "emitsCache": WeakMap {},
+        "mixins": [
+          {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": {
+        "VTU_COMPONENT": {
+          "cardText": "Player",
+          "getImageUrl": [Function],
+          "monster": {
+            "attack": 60,
+            "defense": 40,
+            "hp": 10,
+            "id": "monster-1",
+            "imageUrl": "images/dead-unicorn.png",
+            "name": "Dead Unicorn",
+            "speed": 80,
+            "type": "Type",
+          },
+        },
+      },
+      "da": null,
+      "data": {},
+      "devtoolsRawSetupState": {
+        "VTU_COMPONENT": RefImpl {
+          "__v_isRef": true,
+          "__v_isShallow": false,
+          "_rawValue": {
+            "cardText": "Player",
+            "getImageUrl": [Function],
+            "monster": {
+              "attack": 60,
+              "defense": 40,
+              "hp": 10,
+              "id": "monster-1",
+              "imageUrl": "images/dead-unicorn.png",
+              "name": "Dead Unicorn",
+              "speed": 80,
+              "type": "Type",
+            },
+          },
+          "_value": {
+            "cardText": "Player",
+            "getImageUrl": [Function],
+            "monster": {
+              "attack": 60,
+              "defense": 40,
+              "hp": 10,
+              "id": "monster-1",
+              "imageUrl": "images/dead-unicorn.png",
+              "name": "Dead Unicorn",
+              "speed": 80,
+              "type": "Type",
+            },
+          },
+          "dep": undefined,
+        },
+      },
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "_depsLength": 4,
+        "_dirtyLevel": 0,
+        "_runnings": 0,
+        "_shouldSchedule": false,
+        "_trackId": 1,
+        "active": true,
+        "allowRecurse": true,
+        "deps": [
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+          Map {
+            [Circular] => 1,
+          },
+        ],
+        "fn": [Function],
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "scheduler": [Function],
+        "trigger": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": {},
+      "propsDefaults": {},
+      "propsOptions": [
+        {},
+        [],
+      ],
+      "provides": {},
+      "proxy": {
+        "VTU_COMPONENT": {
+          "cardText": "Player",
+          "getImageUrl": [Function],
+          "monster": {
+            "attack": 60,
+            "defense": 40,
+            "hp": 10,
+            "id": "monster-1",
+            "imageUrl": "images/dead-unicorn.png",
+            "name": "Dead Unicorn",
+            "speed": 80,
+            "type": "Type",
+          },
+        },
+      },
+      "refs": {
+        "VTU_COMPONENT": {
+          "cardText": "Player",
+          "getImageUrl": [Function],
+          "monster": {
+            "attack": 60,
+            "defense": 40,
+            "hp": 10,
+            "id": "monster-1",
+            "imageUrl": "images/dead-unicorn.png",
+            "name": "Dead Unicorn",
+            "speed": 80,
+            "type": "Type",
+          },
+        },
+      },
+      "render": [Function],
+      "renderCache": [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "_active": true,
+        "cleanups": [],
+        "detached": true,
+        "effects": [
+          ReactiveEffect {
+            "_depsLength": 4,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+            "trigger": [Function],
+          },
+        ],
+        "parent": undefined,
+      },
+      "setupContext": null,
+      "setupState": {
+        "VTU_COMPONENT": {
+          "cardText": "Player",
+          "getImageUrl": [Function],
+          "monster": {
+            "attack": 60,
+            "defense": 40,
+            "hp": 10,
+            "id": "monster-1",
+            "imageUrl": "images/dead-unicorn.png",
+            "name": "Dead Unicorn",
+            "speed": 80,
+            "type": "Type",
+          },
+        },
+      },
+      "slots": {},
+      "sp": null,
+      "subTree": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": {
+          "a": null,
+          "accessCache": {
+            "@@__IMMUTABLE_ITERABLE__@@": 0,
+            "@@__IMMUTABLE_RECORD__@@": 0,
+            "__v_isReadonly": 0,
+            "__v_isRef": 0,
+            "__v_isShallow": 0,
+            "__v_raw": 0,
+            "_isMockFunction": 0,
+            "cardText": 3,
+            "constructor": 0,
+            "getImageUrl": 1,
+            "monster": 3,
+            "toJSON": 0,
+            Symbol(Symbol.toStringTag): 0,
+          },
+          "appContext": {
+            "app": [Circular],
+            "components": {
+              "transition": {
+                "name": "transition",
+              },
+              "transition-group": {
+                "name": "transition-group",
+              },
+            },
+            "config": {
+              "compilerOptions": {},
+              "errorHandler": undefined,
+              "globalProperties": {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": {},
+            "emitsCache": WeakMap {},
+            "mixins": [
+              {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": {},
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": {},
+          "ctx": {
+            "cardText": "Player",
+            "getImageUrl": [Function],
+            "monster": {
+              "attack": 60,
+              "defense": 40,
+              "hp": 10,
+              "id": "monster-1",
+              "imageUrl": "images/dead-unicorn.png",
+              "name": "Dead Unicorn",
+              "speed": 80,
+              "type": "Type",
+            },
+          },
+          "da": null,
+          "data": {},
+          "devtoolsRawSetupState": {
+            "getImageUrl": [Function],
+          },
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "_depsLength": 7,
+            "_dirtyLevel": 0,
+            "_runnings": 0,
+            "_shouldSchedule": false,
+            "_trackId": 1,
+            "active": true,
+            "allowRecurse": true,
+            "deps": [
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+              Map {
+                [Circular] => 1,
+              },
+            ],
+            "fn": [Function],
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+            "trigger": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": null,
+          "emitted": null,
+          "exposeProxy": null,
+          "exposed": null,
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": {
+            "cardText": "Player",
+            "monster": {
+              "attack": 60,
+              "defense": 40,
+              "hp": 10,
+              "id": "monster-1",
+              "imageUrl": "images/dead-unicorn.png",
+              "name": "Dead Unicorn",
+              "speed": 80,
+              "type": "Type",
+            },
+          },
+          "propsDefaults": {},
+          "propsOptions": [
+            {
+              "cardText": {
+                "0": false,
+                "1": true,
+                "default": "Player",
+                "type": [Function],
+              },
+              "monster": {
+                "0": false,
+                "1": true,
+                "required": true,
+                "type": [Function],
+              },
+            },
+            [
+              "cardText",
+            ],
+          ],
+          "provides": {},
+          "proxy": {
+            "cardText": "Player",
+            "getImageUrl": [Function],
+            "monster": {
+              "attack": 60,
+              "defense": 40,
+              "hp": 10,
+              "id": "monster-1",
+              "imageUrl": "images/dead-unicorn.png",
+              "name": "Dead Unicorn",
+              "speed": 80,
+              "type": "Type",
+            },
+          },
+          "refs": {},
+          "render": [Function],
+          "renderCache": [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "_active": true,
+            "cleanups": [],
+            "detached": true,
+            "effects": [
+              ReactiveEffect {
+                "_depsLength": 7,
+                "_dirtyLevel": 0,
+                "_runnings": 0,
+                "_shouldSchedule": false,
+                "_trackId": 1,
+                "active": true,
+                "allowRecurse": true,
+                "deps": [
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                  Map {
+                    [Circular] => 1,
+                  },
+                ],
+                "fn": [Function],
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "scheduler": [Function],
+                "trigger": [Function],
+              },
+            ],
+            "parent": undefined,
+          },
+          "setupContext": null,
+          "setupState": {
+            "getImageUrl": [Function],
+          },
+          "slots": {},
+          "sp": null,
+          "subTree": {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": [
+                  "src",
+                  "alt",
+                ],
+                "el": <img
+                  alt="Dead Unicorn"
+                  class="w-[283px] h-[178px] drop-shadow-md"
+                  src="http://localhost:5173/images/dead-unicorn.png"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": {
+                  "alt": "Dead Unicorn",
+                  "class": "w-[283px] h-[178px] drop-shadow-md",
+                  "src": "http://localhost:5173/images/dead-unicorn.png",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "img",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Dead Unicorn",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p
+                  class="mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark"
+                >
+                  Dead Unicorn
+                </p>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "p",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "ce": undefined,
+                    "children": "HP",
+                    "component": null,
+                    "ctx": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <p
+                      class="text-left"
+                    >
+                      HP
+                    </p>,
+                    "key": null,
+                    "patchFlag": -1,
+                    "props": {
+                      "class": "text-left",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "p",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": [
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": null,
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <div
+                          class="bg-light-green h-2.5 rounded-full"
+                          style="width: 10%;"
+                        />,
+                        "key": null,
+                        "patchFlag": 4,
+                        "props": {
+                          "class": "bg-light-green h-2.5 rounded-full",
+                          "style": "width: 10%",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 1,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "targetStart": null,
+                        "transition": null,
+                        "type": "div",
+                      },
+                    ],
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                    >
+                      <div
+                        class="bg-light-green h-2.5 rounded-full"
+                        style="width: 10%;"
+                      />
+                    </div>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "w-full bg-gray-dark rounded-full h-2.5 shadow-md",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="my-3"
+                >
+                  <p
+                    class="text-left"
+                  >
+                    HP
+                  </p>
+                  <div
+                    class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                  >
+                    <div
+                      class="bg-light-green h-2.5 rounded-full"
+                      style="width: 10%;"
+                    />
+                  </div>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "my-3",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "ce": undefined,
+                    "children": "Attack",
+                    "component": null,
+                    "ctx": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <p
+                      class="text-left"
+                    >
+                      Attack
+                    </p>,
+                    "key": null,
+                    "patchFlag": -1,
+                    "props": {
+                      "class": "text-left",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "p",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": [
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": null,
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <div
+                          class="bg-light-green h-2.5 rounded-full"
+                          style="width: 60%;"
+                        />,
+                        "key": null,
+                        "patchFlag": 4,
+                        "props": {
+                          "class": "bg-light-green h-2.5 rounded-full",
+                          "style": "width: 60%",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 1,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "targetStart": null,
+                        "transition": null,
+                        "type": "div",
+                      },
+                    ],
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                    >
+                      <div
+                        class="bg-light-green h-2.5 rounded-full"
+                        style="width: 60%;"
+                      />
+                    </div>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "w-full bg-gray-dark rounded-full h-2.5 shadow-md",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="my-3"
+                >
+                  <p
+                    class="text-left"
+                  >
+                    Attack
+                  </p>
+                  <div
+                    class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                  >
+                    <div
+                      class="bg-light-green h-2.5 rounded-full"
+                      style="width: 60%;"
+                    />
+                  </div>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "my-3",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "ce": undefined,
+                    "children": "Defense",
+                    "component": null,
+                    "ctx": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <p
+                      class="text-left"
+                    >
+                      Defense
+                    </p>,
+                    "key": null,
+                    "patchFlag": -1,
+                    "props": {
+                      "class": "text-left",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "p",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": [
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": null,
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <div
+                          class="bg-light-green h-2.5 rounded-full"
+                          style="width: 40%;"
+                        />,
+                        "key": null,
+                        "patchFlag": 4,
+                        "props": {
+                          "class": "bg-light-green h-2.5 rounded-full",
+                          "style": "width: 40%",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 1,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "targetStart": null,
+                        "transition": null,
+                        "type": "div",
+                      },
+                    ],
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                    >
+                      <div
+                        class="bg-light-green h-2.5 rounded-full"
+                        style="width: 40%;"
+                      />
+                    </div>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "w-full bg-gray-dark rounded-full h-2.5 shadow-md",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="my-3"
+                >
+                  <p
+                    class="text-left"
+                  >
+                    Defense
+                  </p>
+                  <div
+                    class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                  >
+                    <div
+                      class="bg-light-green h-2.5 rounded-full"
+                      style="width: 40%;"
+                    />
+                  </div>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "my-3",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "ce": undefined,
+                    "children": "Speed",
+                    "component": null,
+                    "ctx": null,
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <p
+                      class="text-left"
+                    >
+                      Speed
+                    </p>,
+                    "key": null,
+                    "patchFlag": -1,
+                    "props": {
+                      "class": "text-left",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 9,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "p",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": [
+                      {
+                        "__v_isVNode": true,
+                        "__v_skip": true,
+                        "anchor": null,
+                        "appContext": null,
+                        "children": null,
+                        "component": null,
+                        "ctx": [Circular],
+                        "dirs": null,
+                        "dynamicChildren": null,
+                        "dynamicProps": null,
+                        "el": <div
+                          class="bg-light-green h-2.5 rounded-full"
+                          style="width: 80%;"
+                        />,
+                        "key": null,
+                        "patchFlag": 4,
+                        "props": {
+                          "class": "bg-light-green h-2.5 rounded-full",
+                          "style": "width: 80%",
+                        },
+                        "ref": null,
+                        "scopeId": null,
+                        "shapeFlag": 1,
+                        "slotScopeIds": null,
+                        "ssContent": null,
+                        "ssFallback": null,
+                        "staticCount": 0,
+                        "suspense": null,
+                        "target": null,
+                        "targetAnchor": null,
+                        "targetStart": null,
+                        "transition": null,
+                        "type": "div",
+                      },
+                    ],
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": null,
+                    "dynamicProps": null,
+                    "el": <div
+                      class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                    >
+                      <div
+                        class="bg-light-green h-2.5 rounded-full"
+                        style="width: 80%;"
+                      />
+                    </div>,
+                    "key": null,
+                    "patchFlag": 0,
+                    "props": {
+                      "class": "w-full bg-gray-dark rounded-full h-2.5 shadow-md",
+                    },
+                    "ref": null,
+                    "scopeId": null,
+                    "shapeFlag": 17,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "div",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="my-3"
+                >
+                  <p
+                    class="text-left"
+                  >
+                    Speed
+                  </p>
+                  <div
+                    class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                  >
+                    <div
+                      class="bg-light-green h-2.5 rounded-full"
+                      style="width: 80%;"
+                    />
+                  </div>
+                </div>,
+                "key": null,
+                "patchFlag": 0,
+                "props": {
+                  "class": "my-3",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 17,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+            ],
+            "component": null,
+            "ctx": [Circular],
+            "dirs": null,
+            "dynamicChildren": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": [
+                  "src",
+                  "alt",
+                ],
+                "el": <img
+                  alt="Dead Unicorn"
+                  class="w-[283px] h-[178px] drop-shadow-md"
+                  src="http://localhost:5173/images/dead-unicorn.png"
+                />,
+                "key": null,
+                "patchFlag": 8,
+                "props": {
+                  "alt": "Dead Unicorn",
+                  "class": "w-[283px] h-[178px] drop-shadow-md",
+                  "src": "http://localhost:5173/images/dead-unicorn.png",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "img",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": "Dead Unicorn",
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <p
+                  class="mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark"
+                >
+                  Dead Unicorn
+                </p>,
+                "key": null,
+                "patchFlag": 1,
+                "props": {
+                  "class": "mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 9,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "p",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="bg-light-green h-2.5 rounded-full"
+                  style="width: 10%;"
+                />,
+                "key": null,
+                "patchFlag": 4,
+                "props": {
+                  "class": "bg-light-green h-2.5 rounded-full",
+                  "style": "width: 10%",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="bg-light-green h-2.5 rounded-full"
+                  style="width: 60%;"
+                />,
+                "key": null,
+                "patchFlag": 4,
+                "props": {
+                  "class": "bg-light-green h-2.5 rounded-full",
+                  "style": "width: 60%",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="bg-light-green h-2.5 rounded-full"
+                  style="width: 40%;"
+                />,
+                "key": null,
+                "patchFlag": 4,
+                "props": {
+                  "class": "bg-light-green h-2.5 rounded-full",
+                  "style": "width: 40%",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": null,
+                "appContext": null,
+                "children": null,
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": null,
+                "dynamicProps": null,
+                "el": <div
+                  class="bg-light-green h-2.5 rounded-full"
+                  style="width: 80%;"
+                />,
+                "key": null,
+                "patchFlag": 4,
+                "props": {
+                  "class": "bg-light-green h-2.5 rounded-full",
+                  "style": "width: 80%",
+                },
+                "ref": null,
+                "scopeId": null,
+                "shapeFlag": 1,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": "div",
+              },
+            ],
+            "dynamicProps": null,
+            "el": <div
+              class="bg-white drop-shadow-lg w-[300px] h-auto rounded-md px-4 py-4"
+            >
+              <img
+                alt="Dead Unicorn"
+                class="w-[283px] h-[178px] drop-shadow-md"
+                src="http://localhost:5173/images/dead-unicorn.png"
+              />
+              <p
+                class="mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark"
+              >
+                Dead Unicorn
+              </p>
+              <div
+                class="my-3"
+              >
+                <p
+                  class="text-left"
+                >
+                  HP
+                </p>
+                <div
+                  class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                >
+                  <div
+                    class="bg-light-green h-2.5 rounded-full"
+                    style="width: 10%;"
+                  />
+                </div>
+              </div>
+              <div
+                class="my-3"
+              >
+                <p
+                  class="text-left"
+                >
+                  Attack
+                </p>
+                <div
+                  class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                >
+                  <div
+                    class="bg-light-green h-2.5 rounded-full"
+                    style="width: 60%;"
+                  />
+                </div>
+              </div>
+              <div
+                class="my-3"
+              >
+                <p
+                  class="text-left"
+                >
+                  Defense
+                </p>
+                <div
+                  class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                >
+                  <div
+                    class="bg-light-green h-2.5 rounded-full"
+                    style="width: 40%;"
+                  />
+                </div>
+              </div>
+              <div
+                class="my-3"
+              >
+                <p
+                  class="text-left"
+                >
+                  Speed
+                </p>
+                <div
+                  class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+                >
+                  <div
+                    class="bg-light-green h-2.5 rounded-full"
+                    style="width: 80%;"
+                  />
+                </div>
+              </div>
+            </div>,
+            "key": 0,
+            "patchFlag": 0,
+            "props": {
+              "class": "bg-white drop-shadow-lg w-[300px] h-auto rounded-md px-4 py-4",
+              "key": 0,
+            },
+            "ref": null,
+            "scopeId": null,
+            "shapeFlag": 17,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "targetStart": null,
+            "transition": null,
+            "type": "div",
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": {
+            "__file": "D:/Codigos/full-stack-tallent/monster-battle-challenge/src/components/CardMonster/index.vue",
+            "components": {},
+            "props": {
+              "cardText": {
+                "default": "Player",
+                "type": [Function],
+              },
+              "monster": {
+                "required": true,
+                "type": [Function],
+              },
+            },
+            "propsData": {
+              "monster": {
+                "attack": 60,
+                "defense": 40,
+                "hp": 10,
+                "id": "monster-1",
+                "imageUrl": "images/dead-unicorn.png",
+                "name": "Dead Unicorn",
+                "speed": 80,
+                "type": "Type",
+              },
+            },
+            "render": [Function],
+            "setup": [Function],
+          },
+          "u": null,
+          "uid": 3,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "ctx": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <div
+          class="bg-white drop-shadow-lg w-[300px] h-auto rounded-md px-4 py-4"
+        >
+          <img
+            alt="Dead Unicorn"
+            class="w-[283px] h-[178px] drop-shadow-md"
+            src="http://localhost:5173/images/dead-unicorn.png"
+          />
+          <p
+            class="mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark"
+          >
+            Dead Unicorn
+          </p>
+          <div
+            class="my-3"
+          >
+            <p
+              class="text-left"
+            >
+              HP
+            </p>
+            <div
+              class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+            >
+              <div
+                class="bg-light-green h-2.5 rounded-full"
+                style="width: 10%;"
+              />
+            </div>
+          </div>
+          <div
+            class="my-3"
+          >
+            <p
+              class="text-left"
+            >
+              Attack
+            </p>
+            <div
+              class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+            >
+              <div
+                class="bg-light-green h-2.5 rounded-full"
+                style="width: 60%;"
+              />
+            </div>
+          </div>
+          <div
+            class="my-3"
+          >
+            <p
+              class="text-left"
+            >
+              Defense
+            </p>
+            <div
+              class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+            >
+              <div
+                class="bg-light-green h-2.5 rounded-full"
+                style="width: 40%;"
+              />
+            </div>
+          </div>
+          <div
+            class="my-3"
+          >
+            <p
+              class="text-left"
+            >
+              Speed
+            </p>
+            <div
+              class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+            >
+              <div
+                class="bg-light-green h-2.5 rounded-full"
+                style="width: 80%;"
+              />
+            </div>
+          </div>
+        </div>,
+        "key": null,
+        "patchFlag": 0,
+        "props": {
+          "monster": {
+            "attack": 60,
+            "defense": 40,
+            "hp": 10,
+            "id": "monster-1",
+            "imageUrl": "images/dead-unicorn.png",
+            "name": "Dead Unicorn",
+            "speed": 80,
+            "type": "Type",
+          },
+          "ref": "VTU_COMPONENT",
+        },
+        "ref": {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "targetStart": null,
+        "transition": null,
+        "type": {
+          "__file": "D:/Codigos/full-stack-tallent/monster-battle-challenge/src/components/CardMonster/index.vue",
+          "components": {},
+          "props": {
+            "cardText": {
+              "default": "Player",
+              "type": [Function],
+            },
+            "monster": {
+              "required": true,
+              "type": [Function],
+            },
+          },
+          "propsData": {
+            "monster": {
+              "attack": 60,
+              "defense": 40,
+              "hp": 10,
+              "id": "monster-1",
+              "imageUrl": "images/dead-unicorn.png",
+              "name": "Dead Unicorn",
+              "speed": 80,
+              "type": "Type",
+            },
+          },
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": {
+        "name": "VTU_ROOT",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "u": null,
+      "uid": 2,
+      "um": null,
+      "update": [Function],
+      "vnode": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": {
+          "app": [Circular],
+          "components": {
+            "transition": {
+              "name": "transition",
+            },
+            "transition-group": {
+              "name": "transition-group",
+            },
+          },
+          "config": {
+            "compilerOptions": {},
+            "errorHandler": undefined,
+            "globalProperties": {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": {},
+          "emitsCache": WeakMap {},
+          "mixins": [
+            {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "ctx": null,
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <div
+          class="bg-white drop-shadow-lg w-[300px] h-auto rounded-md px-4 py-4"
+        >
+          <img
+            alt="Dead Unicorn"
+            class="w-[283px] h-[178px] drop-shadow-md"
+            src="http://localhost:5173/images/dead-unicorn.png"
+          />
+          <p
+            class="mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark"
+          >
+            Dead Unicorn
+          </p>
+          <div
+            class="my-3"
+          >
+            <p
+              class="text-left"
+            >
+              HP
+            </p>
+            <div
+              class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+            >
+              <div
+                class="bg-light-green h-2.5 rounded-full"
+                style="width: 10%;"
+              />
+            </div>
+          </div>
+          <div
+            class="my-3"
+          >
+            <p
+              class="text-left"
+            >
+              Attack
+            </p>
+            <div
+              class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+            >
+              <div
+                class="bg-light-green h-2.5 rounded-full"
+                style="width: 60%;"
+              />
+            </div>
+          </div>
+          <div
+            class="my-3"
+          >
+            <p
+              class="text-left"
+            >
+              Defense
+            </p>
+            <div
+              class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+            >
+              <div
+                class="bg-light-green h-2.5 rounded-full"
+                style="width: 40%;"
+              />
+            </div>
+          </div>
+          <div
+            class="my-3"
+          >
+            <p
+              class="text-left"
+            >
+              Speed
+            </p>
+            <div
+              class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+            >
+              <div
+                class="bg-light-green h-2.5 rounded-full"
+                style="width: 80%;"
+              />
+            </div>
+          </div>
+        </div>,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "targetStart": null,
+        "transition": null,
+        "type": {
+          "name": "VTU_ROOT",
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 1,
+    "component": [Function],
+    "config": {
+      "compilerOptions": {},
+      "errorHandler": undefined,
+      "globalProperties": {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "provide": [Function],
+    "runWithContext": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.4.34",
+  },
+  "__setProps": [Function],
+  "cleanUpCallbacks": [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "componentVM": {
+    "cardText": "Player",
+    "getImageUrl": [Function],
+    "monster": {
+      "attack": 60,
+      "defense": 40,
+      "hp": 10,
+      "id": "monster-1",
+      "imageUrl": "images/dead-unicorn.png",
+      "name": "Dead Unicorn",
+      "speed": 80,
+      "type": "Type",
+    },
+  },
+  "isDisabled": [Function],
+  "rootVM": {
+    "VTU_COMPONENT": {
+      "cardText": "Player",
+      "getImageUrl": [Function],
+      "monster": {
+        "attack": 60,
+        "defense": 40,
+        "hp": 10,
+        "id": "monster-1",
+        "imageUrl": "images/dead-unicorn.png",
+        "name": "Dead Unicorn",
+        "speed": 80,
+        "type": "Type",
+      },
+    },
+  },
+  "wrapperElement": <div
+    class="bg-white drop-shadow-lg w-[300px] h-auto rounded-md px-4 py-4"
+  >
+    <img
+      alt="Dead Unicorn"
+      class="w-[283px] h-[178px] drop-shadow-md"
+      src="http://localhost:5173/images/dead-unicorn.png"
+    />
+    <p
+      class="mt-4 text-left text-2xl border-b-2 pb-1 border-gray-dark"
+    >
+      Dead Unicorn
+    </p>
+    <div
+      class="my-3"
+    >
+      <p
+        class="text-left"
+      >
+        HP
+      </p>
+      <div
+        class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+      >
+        <div
+          class="bg-light-green h-2.5 rounded-full"
+          style="width: 10%;"
+        />
+      </div>
+    </div>
+    <div
+      class="my-3"
+    >
+      <p
+        class="text-left"
+      >
+        Attack
+      </p>
+      <div
+        class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+      >
+        <div
+          class="bg-light-green h-2.5 rounded-full"
+          style="width: 60%;"
+        />
+      </div>
+    </div>
+    <div
+      class="my-3"
+    >
+      <p
+        class="text-left"
+      >
+        Defense
+      </p>
+      <div
+        class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+      >
+        <div
+          class="bg-light-green h-2.5 rounded-full"
+          style="width: 40%;"
+        />
+      </div>
+    </div>
+    <div
+      class="my-3"
+    >
+      <p
+        class="text-left"
+      >
+        Speed
+      </p>
+      <div
+        class="w-full bg-gray-dark rounded-full h-2.5 shadow-md"
+      >
+        <div
+          class="bg-light-green h-2.5 rounded-full"
+          style="width: 80%;"
+        />
+      </div>
+    </div>
+  </div>,
+}
+`;
