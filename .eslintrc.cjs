@@ -13,7 +13,7 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   rules: {
-    semi: ['error', 'always'],
+    semi: ['off', 'always'],
     'vue/comment-directive': 'off',
     'vue/multi-word-component-names': 'off',
   }

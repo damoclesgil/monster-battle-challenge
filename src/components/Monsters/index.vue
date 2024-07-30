@@ -9,17 +9,18 @@ const loading: Ref<boolean> = ref(false)
 const monsters = ref<MONSTER[]>([])
 const monsterSelected = ref<MONSTER | null>(null)
 const randomMonsterSelected = ref<MONSTER | null>(null)
+// const winner = ref<MONSTER | null>(null)
 
-const monsterMocked = {
-  id: 'monster-1',
-  name: 'Dead Unicorn',
-  attack: 60,
-  defense: 40,
-  hp: 10,
-  speed: 80,
-  type: 'Type',
-  imageUrl: 'images/dead-unicorn.png'
-}
+// const monsterMocked = {
+//   id: 'monster-1',
+//   name: 'Dead Unicorn',
+//   attack: 60,
+//   defense: 40,
+//   hp: 10,
+//   speed: 80,
+//   type: 'Type',
+//   imageUrl: 'images/dead-unicorn.png'
+// }
 const error = ref(null)
 
 async function fetchData() {
@@ -40,8 +41,10 @@ const selectMonster = (currentMonster: MONSTER) => {
 }
 
 const startBattle = async () => {
-  await setBattle()
   randomMonsterSelected.value = monsters.value[Math.floor(Math.random() * monsters.value.length)]
+  console.log(randomMonsterSelected.value.id)
+  console.log(monsterSelected.value?.id)
+  await setBattle()
 }
 
 onMounted(async () => {
