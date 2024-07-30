@@ -11,7 +11,8 @@ const monsterMocked = {
   hp: 10,
   speed: 80,
   type: 'Type',
-  imageUrl: 'images/dead-unicorn.png'
+  imageUrl: 'images/dead-unicorn.png',
+  tie: false
 }
 
 test('Should be render a card text player if not exist monster', () => {

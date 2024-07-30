@@ -13,3 +13,4 @@ test('The button should be dispatch a "click" event', () => {
   wrapper.vm.$emit('click')
   expect(wrapper.emitted().click).toBeTruthy()
 })
+

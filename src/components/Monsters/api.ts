@@ -9,7 +9,7 @@ export type MONSTER = {
   speed: number
   type: string
   imageUrl: string
-  tie: boolean
+  tie?: boolean
 }
 
 export type MONSTER_iDS = {
